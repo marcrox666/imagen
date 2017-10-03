@@ -6,6 +6,6 @@ myImage = loadImage("templo.jpg");
 }
 
 void draw(){
- image(myImage,mouseX,0);
+ image(myImage,mouseX,mouseY);
   
 }
